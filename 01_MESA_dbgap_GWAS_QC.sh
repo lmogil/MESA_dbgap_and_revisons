@@ -249,3 +249,8 @@ plink --bfile MESA_AFA_lifted_finalALL-updated --reference-allele Force-Allele1-
 
 #23. sort and out put for each chromosome
 for i in {1..22}; do vcf-sort MESA_AFA_lifted_final_all_imputationchr${i}.vcf | bgzip -c > MESA_AFA_lifted_final_all_imputation_chr${i}.vcf.gz; done
+
+#24 Keep people with expression data 
+plink --bfile MESA_AFA_lifted_final_all --keep afa_wexp_samples.txt --make-bed --out MESA_AFA_w_expression
+plink --bfile MESA_HIS_lifted_final_all --keep all_mesa_merged/his_wexp_samples.txt --make-bed --out MESA_HIS_w_expression
+plink --bfile MESA_CAU_lifted_final_all --keep cau_wexp_samples.txt --make-bed --out MESA_CAU_w_expression
