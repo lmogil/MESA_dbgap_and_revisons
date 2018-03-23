@@ -18,8 +18,8 @@ chr = sys.argv[1]
 pop=sys.argv[2]
 
 
-chr='22'
-pop='AFA'
+#chr='22'
+#opop='AFA'
 
 dir='/home/lauren/MESA_dbGaP_55081/mesa_imputation_'+pop.lower()+'/UMich_dosages/'
 d_file='chr'+chr+'.maf0.01.r20.8noambig.dosage.txt.gz'
