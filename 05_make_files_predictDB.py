@@ -15,8 +15,8 @@ dosage = "/home/lauren/files_for_revisions_plosgen/px_dosages_expression_ppl/"+p
 samples="/home/lauren/files_for_revisions_plosgen/px_dosages_expression_ppl/samples_"+pop+".txt"
 
 
-anot_file=open("/home/lauren/files_for_revisions_plosgen/en_v7/prepare_data/genotypes/"+pop+"_"+chr+"_annot_prop.txt","wb")
-snp_file=open("/home/lauren/files_for_revisions_plosgen/en_v7/prepare_data/genotypes/"+pop+"_"+chr+"_snp_prop.txt","wb")
+anot_file=open("/home/lauren/files_for_revisions_plosgen/en_v7/prepare_data/genotypes/"+pop+"_"+chr+"_annot.txt","wb")
+snp_file=open("/home/lauren/files_for_revisions_plosgen/en_v7/prepare_data/genotypes/"+pop+"_"+chr+"_snp.txt","wb")
 
 
 ########
